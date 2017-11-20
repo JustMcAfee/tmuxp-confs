@@ -1,0 +1,9 @@
+session_name: 'Pipeline Templates'
+start_directory: ~/Workspaces/cd-pipeline-templates
+windows:
+  - window_name: 'Main'
+    panes:
+      - shell_command:
+        - vim .
+      - shell_command:
+        - gss

@@ -1,0 +1,14 @@
+session_name: nova
+start_directory: "~/"
+windows:
+  - window_name: "NOVA"
+    layout: tiled
+    panes:
+      - shell_command:
+        - set_nova qa
+      - shell_command:
+        - set_nova prod
+      - shell_command:
+        - set_nova stage
+      - shell_command:
+        - fortune | cowsay | lolcat

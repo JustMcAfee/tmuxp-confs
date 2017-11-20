@@ -1,0 +1,12 @@
+session_name: 'Orchestra'
+start_directory: ~/Workspaces/orchestra-gem/
+environment:
+  CI_PUPPET_VERSION: '3.8.2'
+  CI_RUBY_VERSION: '2.1.5'
+windows:
+  - window_name: 'Main'
+    panes:
+      - shell_command:
+        - vim .
+      - shell_command:
+        - bundle install
