@@ -7,8 +7,8 @@ windows:
       - shell_command:
         - set_nova qa
       - shell_command:
-        - set_nova prod
-      - shell_command:
         - set_nova stage
       - shell_command:
-        - fortune | cowsay | lolcat
+        - set_nova prod
+      - shell_command:
+        - set_nova sca
